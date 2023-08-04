@@ -1,0 +1,30 @@
+.footerr {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: var(--cor-branco-padrao);
+    padding: 3.8em;
+}
+
+.footer__FAQ {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+.footerr a {
+    color: var(--cor-branco-padrao);
+}
+
+.footerr__redesSociais {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+.footerr__coisas {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}

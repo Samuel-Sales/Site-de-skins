@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.container__logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container__pesquisa__caixa {
+    width: 462px;
+    height: 27px;
+    border-radius: 0.3em;
+}
+
+.container__login {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.container__botao {
+    background-color: var(--cor-botoes);
+    color: var(--cor-preto-padrao);
+    text-decoration: none;
+    border-radius: 11px;
+    padding: 1.2em;
+}

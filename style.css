@@ -1,0 +1,22 @@
+@import url(/styles/header.css);
+@import url(/styles/main.css);
+@import url(/styles/footer.css);
+
+:root {
+    --fonte-principal: 'Inter', sans-serif;
+    --cor-botoes: #7C96F3;
+    --cor-branco-padrao: #FFFFFF;
+    --cor-preto-padrao: #000000;
+    --cor-dos-cards: linear-gradient(to bottom, rgb(79, 84, 126), #532dff);
+    --cor-footer: linear-gradient(to bottom, rgb(97, 97, 97), #050404);
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-image: linear-gradient(to right, rgb(167, 167, 167), #8f7c7c);
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+}

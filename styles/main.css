@@ -1,0 +1,50 @@
+.MAIN {
+    display: flex;
+}
+
+.main__card {
+    border: 1px solid black;
+    width: 30%;
+    margin: 1em;
+    background-image: var(--cor-dos-cards);
+    color: var(--cor-branco-padrao);
+    padding: 2em 0;
+}
+
+.main__card__cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main__card__skin__full {
+    display: flex;
+    justify-content: center;
+}
+
+.main__card__skin {
+    width: 18.12em;
+}
+
+.main__card__preco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+.main__card__valor {
+    font-weight: 700;
+}
+
+.main__card__preco__mercado {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.main__card__descricao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+}
